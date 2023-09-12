@@ -13,7 +13,7 @@ final class PostState extends Equatable {
       this.hasReachedMax = false});
 
   @override
-  List<Object> get props => [];
+  List<Object> get props => [status, posts, hasReachedMax];
 
   @override
   String toString() {
